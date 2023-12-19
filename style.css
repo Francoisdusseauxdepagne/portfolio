@@ -63,13 +63,31 @@ header{
     left: 725px;
 }
 
+.competences{
+    margin-top: 100px;
+    text-align: center;
+}
+
 .Projets>p{
     font-size: 30px;
 }
 
-.Projets>h2{
+.competences>h2, .Projets>h2, footer>h2{
     font-size: 50px;
     color: black;
+    padding-bottom: 10px;
+}
+
+.line{
+    border-bottom: 6px solid red;
+    width: 3%;
+    margin: auto;
+}
+
+.line2{
+    border-bottom: 1px solid red;
+    width: 50%;
+    margin-left: 13%;
 }
 
 .box-principale{
@@ -113,6 +131,44 @@ header{
      box-shadow: 0 0 12px rgb(0, 208, 255), 0 0 10px rgba(0, 0, 0, .5) inset;
     }
 }
+
+.ctn{
+    justify-content: space-evenly;
+}
+
+.listeFooter>ul>li{
+    margin: 60px;
+    text-align: start;
+}
+
+input, textarea{
+    background-color: #D3D3D3;
+    border: none;
+    border-radius: 10px;
+}
+
+input{
+    padding: 10px;
+}
+
+label{
+    padding: 10px;
+}
+
+textarea{
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
    
 
 
