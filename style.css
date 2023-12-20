@@ -86,8 +86,8 @@ header{
 
 .line2{
     border-bottom: 1px solid red;
-    width: 50%;
-    margin-left: 13%;
+    width: 30%;
+    margin-left: 15%;
 }
 
 .box-principale{
@@ -132,13 +132,21 @@ header{
     }
 }
 
+.formulaire{
+    margin-top: 25px;
+}
+
 .ctn{
     justify-content: space-evenly;
 }
 
+.listeFooter{
+    margin-top: 20px;
+}
+
 .listeFooter>ul>li{
-    margin: 60px;
     text-align: start;
+    margin: 35px;
 }
 
 input, textarea{
